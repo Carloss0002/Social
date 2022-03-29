@@ -1,0 +1,116 @@
+.newpost{
+    height: 460px;
+    background: #4C5059;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    padding:  0px 20px;
+}
+
+.postarea{ 
+    width: 600px;
+    max-width: 700px;
+    background-color: #4C5059;
+    padding:  10px 20px;
+}
+
+.newpost span{
+    padding-bottom: 10px;
+    font-style: italic;
+    color: #FFF;
+}
+
+.newpost textarea{
+    resize: none;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 15px;
+    background: #FAFAFA;
+    border:0;
+    outline: none;
+}
+
+.newpost button{
+    height: 35px;
+    border:0;
+    background-color: #7289DA;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+.newpost button:hover{
+    background-color: #89a1f8;
+}
+
+.action-post button{
+    cursor: pointer;
+    border:0;
+    background: transparent;
+    color: #FFB800;
+    outline: none;
+    padding: 0px 10px;
+}
+
+.post{
+    margin-bottom: 15px;
+}
+
+.post h1{
+    cursor: pointer;
+}
+
+.post div{
+    margin: 0;
+    padding:0;
+
+}
+.post p{
+    color:#FFF;
+    white-space: pre-line;
+}
+
+.post:not(:first-child){
+    border-top: 1px solid rgb(175, 175, 175);
+}
+
+.postarea.loading{
+    width: 600px;
+}
+
+.postarea.loading h2{
+    text-align: center;
+
+}
+
+.newpost h2{
+    color:#FFF;
+}
+
+.postarea h2{
+    color:#FFF;
+    padding-right: 25px;
+}
+.postarea h1{
+    color:#FFF;
+    padding-right: 25px;
+}
+
+.headerPerfil{
+    margin-bottom: 15px;
+}
+
+.headerPerfil h2{
+    color: #FFF;
+}
+.headerPerfil span{
+    color: #FFF;
+}
+.headerPerfil span strong{
+    color: #FFB800;
+}
