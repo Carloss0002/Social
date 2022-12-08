@@ -1,24 +1,18 @@
-# social
+# Social
 
-## Project setup
-```
-npm install
-```
+![random](https://user-images.githubusercontent.com/93801199/206583119-e1dbccf5-26bd-400c-a86e-070af4258e6a.jpg)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Sobre 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Este projeto foi idealizado como uma cópia das funções básicas de uma rede social. Nela o usuário consegue compartilhar textos e dar likes em determinados posts.
 
-### Lints and fixes files
-```
-npm run lint
-```
+### tecnologias
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Vue.js 2
+- Vue CLI
+- Router
+- Firebase 8
+
+## desenvolvedor 
+
+Carlos Eduardo. 
